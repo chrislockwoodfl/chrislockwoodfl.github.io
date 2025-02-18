@@ -14,6 +14,14 @@ header {
   padding: 1rem 0;
 }
 
+.desc {           
+  background: white;
+  color: #333;
+  padding: 1rem 0;
+/*  width: 80%; */
+}
+
+
 .flex-header {
   display: flex;
   align-items: center;
