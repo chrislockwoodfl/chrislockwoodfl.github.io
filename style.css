@@ -1,3 +1,4 @@
+/* for portfolio */
 body {
   margin: 0;
   padding: 0;
@@ -57,35 +58,18 @@ header {
   background-color: #ffffc2;
 }
 
-/*
-.tile__list li:not(:last-child) {
-  margin-right: 20px;
-}  */
+
 
 a {
   text-decoration: none;
   color: black;
 }
 
-.main-navigation__item:hover {
-  text-decoration: none;
-  color: var(--active-color);
+a:hover {
+  color: red;
 }
 
-.main-navigation__item.is-active {
-  color: var(--active-color);
-}
 
-.main-navigation__item.is-active::after {
-  content: '';
-  height: 4.5px;
-  width: 100%;
-  background-color: var(--active-color);
-  border-radius: 8px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 
 h1 {
  text-align: center;
@@ -102,3 +86,27 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+.my-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: lightgray;
+} 
